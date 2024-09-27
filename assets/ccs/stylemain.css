@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --purple: #987070;
+    --violet: #C39898;
+    --granade: #DBB5B5;
+    --dark: #795757;
+    --white: #FFF0D1;
+}
+header{
+    background-color: var(--purple);
+    color: var(--violet);
+    width: 100%;
+    height: 80px;
+}
+.menu{
+    list-style: none !important;
+    float: right;
+    margin: 0 10px;
+    text-align: center;
+}
+.menu li{
+    display: inline;
+    background-color: var(--dark);
+    padding: 20px;
+    border-radius: 10px;
+}
+.menu li a{
+    color: var(--violet);
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.menu li a:hover{
+    color: white;
+}
+.Servicios{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 20px;
+}
+.card{
+    background-color: var(--white);
+    border: var(--white) 2px solid;
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+.card h3{
+    font-size: 1.5 em;
+    color: var(--purple);
+    font-weight: 800;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    color: var(--purple);
+}
+p{
+    font-size: 16px;
+}
